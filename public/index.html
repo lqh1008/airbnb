@@ -10,11 +10,13 @@
       content="Web site created using create-react-app"
     />
     <!-- TODO: 为什么可以这么引入 -->
+    <!-- 仅支持苹果系统 -->
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
+
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -28,6 +30,7 @@
     <title>Airbnb爱彼迎 - 全球民宿_公寓_短租_住宿_预订平台</title>
   </head>
   <body>
+    <!-- 如果浏览器不支持javascript，则会显示该标签内容 -->
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
